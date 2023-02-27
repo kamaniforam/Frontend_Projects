@@ -33,7 +33,7 @@ header{
 }
 
 .search::placeholder{
-    color: #0e0e17;
+    color: #afafc2;
 }
 
 .search:focus{
