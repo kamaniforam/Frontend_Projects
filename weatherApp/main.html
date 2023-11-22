@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waether App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button><img src="images\loupe.png"></button>
+        </div>
+        <div class="weather">
+            <img src="images/cloudy.png" alt="" class="weather-icon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">NYC</h2>
+
+            <div class="details">
+                <div class="col">
+                    <img src="images/windy.png">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png">
+                    <div>
+                        <p class="wind">10 km/hr</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const apikey = "5ff507671804b680804b8eb76d8c7b8f";
+        const apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=germany&appid=5ff507671804b680804b8eb76d8c7b8f&units=metrics"
+    </script>
+
+</body>
+
+</html>
